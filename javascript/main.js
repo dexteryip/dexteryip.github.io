@@ -1,7 +1,7 @@
 function r(f) { /in/.test(document.readyState) ? setTimeout('r(' + f + ')', 9) : f() }
 // use like
 r(function() {
-    showSlides(1, 1);
+    // showSlides(1, 1);
     showSlides(1, 2);
     showSlides(1, 3);
 });
