@@ -4,8 +4,9 @@ r(function() {
     // showSlides(1, 1);
     showSlides(1, 2);
     showSlides(1, 3);
+    showSlides(1, 4);
 });
-let slideIndex = [1, 1, 1];
+let slideIndex = [1, 1, 1, 1];
 
 // Next/previous controls
 function plusSlides(n, sender) {
